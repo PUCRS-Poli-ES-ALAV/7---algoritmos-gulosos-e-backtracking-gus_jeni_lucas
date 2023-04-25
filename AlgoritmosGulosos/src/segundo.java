@@ -22,8 +22,12 @@ public class SDMGuloso {
     }
 
     public static void main(String[] args) {
-        int[] s = {4, 6, 13, 4, 2, 6, 7, 9, 1, 3, 9};
-        int[] f = {8, 7, 14, 5, 4, 9, 10, 11, 6, 13, 12};
+        // int[] s = {4, 6, 13, 4, 2, 6, 7, 9, 1, 3, 9};
+        // int[] f = {8, 7, 14, 5, 4, 9, 10, 11, 6, 13, 12};
+        // X          0  1   1  0  1  0   0   1  0   0   0
+
+        int[] s = {2, 4, 1, 6, 4, 6, 7, 9, 9, 3, 13};
+        int[] f = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
 
         Set<Integer> sdm = sdmGuloso(s, f);
         System.out.println("Subcoleção disjunta máxima: " + sdm);
