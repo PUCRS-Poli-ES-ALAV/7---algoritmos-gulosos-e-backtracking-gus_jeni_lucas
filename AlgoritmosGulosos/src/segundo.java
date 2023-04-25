@@ -31,6 +31,5 @@ public class SDMGuloso {
 
         Set<Integer> sdm = sdmGuloso(s, f);
         System.out.println("Subcoleção disjunta máxima: " + sdm);
-        // Errado
     }
 }
